@@ -1,3 +1,11 @@
+################################################################
+# FILE : rotator.py
+# WRITER : Method provided by  Andri and Magnus Hoff
+#          Code written by Aaron Snoswell
+#          https://stackoverflow.com/questions/16702966/rotate-image-and-crop-out-black-borders
+# DESCRIPTION: Useful function to parse the image
+################################################################
+
 import math
 import cv2
 import numpy as np
@@ -136,7 +144,6 @@ def apply(image, angle):
     Demos the largest_rotated_rect function
     """
     image_height, image_width = image.shape[0:2]
-
     image_rotated = rotate_image(image, angle)
 
     # The good one
