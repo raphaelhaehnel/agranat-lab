@@ -3,8 +3,8 @@
 <p>
   This program is a tool to analyze microscope images. <br />
   
-  The program is able to take an image than contains a bragg grating,
-  and computes the period of the grating. It uses the OpenCV library to proccess the image.
+  The program is able to take an image of a crystal than contains a bragg grating,
+  and computes the period of this grating. It uses the OpenCV library to proccess the image.
 </p>
   
 
@@ -19,6 +19,10 @@ On the main window you can choose the output <br />
 # Parameters
 
 Two parameters have to be define: the <b>scale</b> and the <b>rotation angle</b><br />
+<ul>
+  <li>Scale: Define the length in micrometers for a single pixel</li>
+  <li>Rotation angle: The angle for which we must rotate the image to make the lines of the grating parallel to the image borders</li>
+</ul>
 ![dialog](https://user-images.githubusercontent.com/69756617/137621620-ba301ed2-9830-4db9-a9a6-8b3ac6178d61.png)
 
 
