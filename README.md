@@ -13,6 +13,7 @@
 # Main window
 
 On the main window you can choose the output <br />
+
 ![main_window](https://user-images.githubusercontent.com/69756617/137621617-fd0900dd-53c4-4c48-91e1-2c5fc686a365.png)
 
 
@@ -22,7 +23,8 @@ Two parameters have to be define: the <b>scale</b> and the <b>rotation angle</b>
 <ul>
   <li>Scale: Define the length in micrometers for a single pixel</li>
   <li>Rotation angle: The angle for which we must rotate the image to make the lines of the grating parallel to the image borders</li>
-</ul><br />
+</ul>
+
 ![dialog](https://user-images.githubusercontent.com/69756617/137621620-ba301ed2-9830-4db9-a9a6-8b3ac6178d61.png)
 
 
