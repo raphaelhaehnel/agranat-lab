@@ -1,4 +1,4 @@
-# Project description
+# Striations Analyzer
 
 This program is a tool to analyze microscope images.
   
