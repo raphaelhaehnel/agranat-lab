@@ -48,6 +48,6 @@ To help us visualize the bragg grating as an image, we can expand the single-lin
 
 ![5 - image_line](https://user-images.githubusercontent.com/69756617/205872980-2cf47c61-fb89-439d-ba4e-84bb4cf55647.png)
 
-All that is left is to compute the fourier transform of the graph, and extract from it the maximul value, that correspond to the bragg gratings. Is the bragg grating was perfect and without noise, we would have get a delta function.
+All that is left is to compute the fourier transform of the graph, and extract from it the maximul value, that correspond to the bragg gratings. If the bragg grating was perfect and without noise, we would have get a delta function.
 
 ![6 - fourier_transform](https://user-images.githubusercontent.com/69756617/205872991-b56252e0-9ff0-41ab-a0be-53e5c8d6d78d.png)
