@@ -1,30 +1,26 @@
 # Project description
 
-<p>
-  This program is a tool to analyze microscope images. <br />
+This program is a tool to analyze microscope images.
   
-  The program is able to take an image of a crystal than contains a bragg grating,
-  and computes the period of this grating. It uses the OpenCV library to proccess the image.
-</p>
-  
+It is able to take an image of a crystal than contains a bragg grating,
+and computes the period of this grating. It uses the OpenCV library to proccess the image.
 
-<br />
+## Usage
 
-# Main window
+You can see below the main window.
 
-On the main window you can choose the output <br />
+![mainWindow](https://user-images.githubusercontent.com/69756617/205871339-29e389ab-eab8-4456-ab03-40e7dea158ae.png)
 
-![main_window](https://user-images.githubusercontent.com/69756617/137621617-fd0900dd-53c4-4c48-91e1-2c5fc686a365.png)
+### Define parameters
 
+Before you are starting your work, you need to define some parameters, by pressing File > Define parameters.
+Scale: Define the length (in micrometers) of a single pixel
+Rotation angle: Define the angle for which we must rotate the image to make the lines of the grating parallel to the image borders
 
-# Parameters
+![parameters](https://user-images.githubusercontent.com/69756617/205871420-f4fc7932-7cf5-41ee-9618-cb70e4e4c431.png)
 
-Two parameters have to be define: the <b>scale</b> and the <b>rotation angle</b><br />
-<ul>
-  <li>Scale: Define the length in micrometers for a single pixel</li>
-  <li>Rotation angle: The angle for which we must rotate the image to make the lines of the grating parallel to the image borders</li>
-</ul>
+The rotation angle can be defined by yourself.
+It have to be precise, so the computation of the grating period can be reliable. However, you can find the rotation angle automatically by pressing the button "Angle finder". But you still need to define a range angle and a resolution so the program can find the optimal angle.
 
-![dialog](https://user-images.githubusercontent.com/69756617/137621620-ba301ed2-9830-4db9-a9a6-8b3ac6178d61.png)
-
+![automatic rotation](https://user-images.githubusercontent.com/69756617/205871732-e7f6edd7-01aa-4294-96fa-efe40f69515c.png)
 
